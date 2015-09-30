@@ -1,0 +1,21 @@
+{
+  "name": "rails-polymer",
+  "version": "0.0.0",
+  "authors": [
+    "cristian <zink.krysty@gmail.com>"
+  ],
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5.1",
+    "core-scaffold": "Polymer/core-scaffold#^0.5.1",
+    "core-menu": "Polymer/core-menu#^0.5.1"
+  },
+  "homepage": "https://github.com/zinkkrysty/rails-polymer-example",
+  "description": "example app",
+  "main": "",
+  "keywords": [
+    "stuff"
+  ]
+}

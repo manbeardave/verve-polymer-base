@@ -1,0 +1,17 @@
+@import "bootstrap-sprockets"
+@import "bootstrap"
+
+$brand-color: #3fa3dc
+$half-width: 50%
+
+core-toolbar
+  background-color: $brand-color
+  color: #fff
+  img
+    width: $half-width
+    margin: auto
+core-header-panel[drawer]
+  background-color: #eee
+  core-toolbar
+    background-color: mix($brand-color, #000, 70%)
+   

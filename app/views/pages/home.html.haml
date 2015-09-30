@@ -1,0 +1,14 @@
+%core-drawer-panel
+  %core-header-panel{drawer: true, :flex => true, :mode => "seamed", :navigation => ""}
+    %core-toolbar
+      = image_tag "verve_logo.png"
+    %core-menu{:theme => "core-light-theme"}
+      %core-item{:icon => "home", :label => "Home"}
+        = link_to "", '#'
+      %core-item{:icon => "help", :label => "About"}
+        = link_to "", about_path
+  %core-header-panel{main: true, :flex => true, :mode => "seamed", :navigation => ""}
+    %core-toolbar Polymer Rails App with Bootstrap
+    .container-fluid
+      %h1 verve
+      %p This is going to rock
